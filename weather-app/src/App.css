@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(153, 194, 59);
+    height: 100%;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+#root {
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    border: 1px solid rgb(199, 202, 17);
+}
+.title {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    background-image: url(http://www.imageafter.com/dbase/images/nature_elements/b20nicoleluneburg021.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h1,.title-p {
+    color: rgb(5, 25, 90);
+}
+.form-component {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+    height: 100%;
+    background-color: rgb(11, 11, 59)
+    
+}
+.inputs {
+    margin-top: 50px;
+    height: 70%;
+}
+form {
+    display: flex;
+    align-items: center;
+}
+input {
+    width: 30%;
+    margin-left: 10px;
+    border: 0;
+    border-bottom: 2px solid #1976D2;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    background: transparent;
+       color: #BBDEFB;
+   }
+button {
+    width: 64px;
+    background-color: #1976D2;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 5px;
+}
+#result-p {
+    font-size: 20px;
+    color: #1976D2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
